@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+.banner{
+    background-color: aqua;
+    display:flex;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+}
+#menu{
+    height: 70px;
+    width: 70px;
+}
