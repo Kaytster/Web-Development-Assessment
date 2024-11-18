@@ -5,7 +5,11 @@ body {
 
 .banner{
     background-color: aqua;
-    display:flex;
+    display: flex;
+}
+.banner > h2{
+    /* color:chocolate; */
+    text-align: right;
 }
 #logo{
     height: 70px;
@@ -14,4 +18,30 @@ body {
 #menu{
     height: 70px;
     width: 70px;
+}
+nav ul{
+    list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h4{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.links{
+    display:flex;
+}
+.links > .column{
+    flex: 50%;
+    padding: 10px;
+    border-color: black;
+    border-width: 5px;
+}
+.links > .row{
+    display: flex;
 }

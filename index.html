@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="CSS/Mobile.css" />
+    <script src="JS/javascript.js" defer></script>
     <title>Home Page</title>
 </head>
+
 <body>
+
     <header class="banner">
         <!-- Banner -->
         <nav class="Burger">
-            <img id="menu" src="Images/burgee.jpg" alt="Menu">
+            <img id="menu" src="Images/burgee.jpg" alt="Menu" onClick="menuFunction()" role="button">
             <ul>
             <a href="https://th.bing.com/th/id/OIP.iZoxY7jnds94Zc-_U5Fm3wHaHX?rs=1&pid=ImgDetMain"> peep1 </a>
             <a href="https://th.bing.com/th/id/OIP.iZoxY7jnds94Zc-_U5Fm3wHaHX?rs=1&pid=ImgDetMain"> peep2 </a>
@@ -23,14 +27,35 @@
             </ul>
         </nav>
         <img id="logo" src="Images/logo.png" alt="Cantor College Logo">
-        <!-- Introduction -->
+        <h2>Home</h2>
     </header>
+
+    <!-- Introduction -->
+     <h4>
+        Welcome to Cantor College. Find all the information you need here at our website.
+     </h4>
+
     <main>
         <!-- Slideshow -->
+         <section class="indexSlideshow">
+            <img src="" alt="Our College" id="indexImages" width="device-width" height="350px" />
+         </section>
         <!-- Main Content -->
+         <section class="links">
+             <div class="row">
+                <div class="column">
+                    <h2>My Column</h2>
+                </div>
+                <div class="column">
+                    <h2>My Column</h2>
+                </div>
+            </div>
+         </section>
     </main>
+
     <footer>
         <!-- Footer -->
     </footer>
+
 </body>
 </html>
