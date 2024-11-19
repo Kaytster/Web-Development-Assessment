@@ -33,15 +33,45 @@ h4{
     text-align: center;
 }
 
-.links{
+table{
+    width:100%;
+}
+tr{
+    height: 100px;
+}
+#about, #courses, #facilities{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+}
+#resources, #portal, #contact{
+    background-color: blueviolet;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+/* .links{
     display:flex;
 }
-.links > .column{
-    flex: 50%;
-    padding: 10px;
-    border-color: black;
-    border-width: 5px;
+.links > .row1, .row2 > #indexCol1, #indexCol2, #indexCol3{
+    flex: 25%;
+    
+    padding-left: 25px;
+    padding-right: 25px; 
+    padding: 25px;
+    width:auto;
+    height: 100px;
 }
-.links > .row{
+.links > .row1, .row2{
     display: flex;
 }
+.row1 > #indexCol1{
+    background-color: red;
+    border-color: black;
+}
+.row2 > #indexCol1{
+    background-color: red;
+    border-color: black;
+} */
