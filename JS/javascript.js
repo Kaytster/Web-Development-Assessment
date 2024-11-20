@@ -16,9 +16,9 @@
 //Index Slideshow
 let indexArray = 
 [
-    "Images/20230829_111351.jpg",
-    "Images/IMG_0170.jpeg",
-    "Images/main_2529_image4.png"
+    "WEB-DEVELOPMENT-ASSESSMENT/Images/20230829_111351.jpg",
+    "WEB-DEVELOPMENT-ASSESSMENTImages/IMG_0170.jpeg",
+    "WEB-DEVELOPMENT-ASSESSMENTImages/main_2529_image4.png"
 ];
 
 let imageCounter = 0;
@@ -45,4 +45,22 @@ function nextImage()
         {
             imageCounter = 0;
         }
+}
+
+let aboutL = document.getElementById("about")
+let coursesL = document.getElementById("courses")
+let facilitiesL = document.getElementById("facilities")
+let resourcesL = document.getElementById("resources")
+let portalL = document.getElementById("portal")
+let contactL = document.getElementById("contact")
+
+document.getElementsByClassName("about", "courses","facilities", "resources", "portal", "contact").addEventListener("click", setLinks)
+function setLinks()
+{
+    aboutL.setAttribute("href", "WEB-DEVELOPMENT-ASSESSMENT/Pages/about.html")
+    coursesL.setAttribute("href", "https://th.bing.com/th/id/OIP.g0zSfIMJo8pzZkulh89ZIQHaD3?rs=1&pid=ImgDetMain")
+    facilitiesL.setAttribute("href", "https://th.bing.com/th/id/OIP.g0zSfIMJo8pzZkulh89ZIQHaD3?rs=1&pid=ImgDetMain")
+    resourcesL.setAttribute("href", "https://th.bing.com/th/id/OIP.g0zSfIMJo8pzZkulh89ZIQHaD3?rs=1&pid=ImgDetMain")
+    portalL.setAttribute("href", "https://th.bing.com/th/id/OIP.g0zSfIMJo8pzZkulh89ZIQHaD3?rs=1&pid=ImgDetMain")
+    contactL.setAttribute("href", "https://th.bing.com/th/id/OIP.g0zSfIMJo8pzZkulh89ZIQHaD3?rs=1&pid=ImgDetMain")
 }
