@@ -11,21 +11,56 @@ body {
 .banner > h2{
     /* color:chocolate; */
     text-align: right;
+    padding-top: 5px;
+    padding-left: 50px;
+  
 }
+
 #logo{
-    height: 70px;
-    width: 70px;
+    height: 100%px;
+    width: 80px;
 }
 #menu{
     height: 70px;
     width: 70px;
 }
+
+/* Burger Menu Styling */
+#burgerIcon button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: blue;
+}
+#burgerIcon{
+    z-index: 2;
+}
+nav{
+    background-color: hotpink;
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.0s;
+}
+
+nav.open {
+    max-height:300px;
+    max-width: 165px;
+}
+
+
+
 nav ul{
     list-style: none;
-  padding-left: 0;
+  padding: 40px 0 0 0;
   margin: 0;
   display: flex;
   flex-direction: column;
+  
 }
 
 h4{
@@ -41,39 +76,41 @@ tr{
     border-width: 3px;
 }
 .about, .courses, .facilities{
-    border-color: red;
-    border-width: 3px;
     width: 100px;
     text-align: center;
 }
 .resources, .portal, .contact{
-    background-color: blueviolet;
     width: 100px;
     text-align: center;
 }
 
-
-
-/* .links{
-    display:flex;
-}
-.links > .row1, .row2 > #indexCol1, #indexCol2, #indexCol3{
-    flex: 25%;
+.row{
+    display:inline-flex;
     
-    padding-left: 25px;
-    padding-right: 25px; 
-    padding: 25px;
-    width:auto;
-    height: 100px;
+    margin: auto;
 }
-.links > .row1, .row2{
-    display: flex;
+
+.row > .col > img{
+    width:100px;
+    height:100px;
+    padding: 10px;
 }
-.row1 > #indexCol1{
-    background-color: red;
-    border-color: black;
+.row > .col > p{
+    padding:10px;
+    width: 100px
 }
-.row2 > #indexCol1{
-    background-color: red;
-    border-color: black;
-} */
+
+h4{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.address > .row, .col{
+    width:100%;
+}
+
+.address > .row > .col > img{
+    width:200px;
+    height:200px;
+}
