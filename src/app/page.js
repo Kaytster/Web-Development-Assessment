@@ -1,6 +1,4 @@
-import Image from "next/image";
 import "./layout.js";
-import Slideshow from "@/app/components/slideshow";
 
 export const metadata = {
   title: "Home",
@@ -8,12 +6,14 @@ export const metadata = {
 };
 
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
-      <section className="slideshow">
-        <Slideshow />
+      <section id="slideshow">
+        <p>My Slideshow</p>
       </section>
     </main>
   );
-}
+};
+
+export default Home;
