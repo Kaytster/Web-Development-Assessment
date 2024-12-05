@@ -1,3 +1,4 @@
+import Image from "next/image.js";
 import "./layout.js";
 
 export const metadata = {
@@ -11,6 +12,26 @@ const Home = () => {
     <main>
       <section id="slideshow">
         <p>My Slideshow</p>
+      </section>
+
+      <br />
+      <div id="divider" />
+      <br />
+
+      <section id="links">
+        <div className="row">
+          <div className="col">
+          <img src="/Images/about-us.webp" alt="about us" width={100} height={100}/>
+          </div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
+        <br />
+        <div className="row">
+          <div className="col"></div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
       </section>
     </main>
   );
