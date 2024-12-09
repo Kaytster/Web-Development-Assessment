@@ -1,0 +1,7 @@
+ #links > .row > .col {
+    display: inline-flex;
+    padding-left: 6.5px;
+    padding-right: 6.5px;
+    height: 100px;
+    width: 100px;
+  }

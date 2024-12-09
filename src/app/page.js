@@ -1,4 +1,3 @@
-import Image from "next/image.js";
 import "./layout.js";
 //import myImages from "./components/images.js"
 
