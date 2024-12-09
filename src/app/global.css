@@ -38,13 +38,23 @@
   display: flex;
 }
 
-#links > .row > .col {
-  display: inline-flex;
-  padding-left: 6.5px;
-  padding-right: 6.5px;
-  height: 100px;
-  width: 100px;
+/* #links > .row > .col {
   border-style: solid;
   border-width: 2px;
   border-color: blue;
+} */
+
+img {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  display: inline-flex;
+}
+
+#links > .row> .spaceCol {
+  width: 25px;
+  height: 100px;
+  background-color: chartreuse;
 }

@@ -1,4 +1,5 @@
 import "./layout.js";
+import IndexPage from './components/indexpage';
 //import myImages from "./components/images.js"
 
 export const metadata = {
@@ -18,21 +19,7 @@ const Home = () => {
       <div id="divider" />
       <br />
 
-      <section id="links">
-        <div className="row">
-          <div className="col">
-          <myImages />
-          </div>
-          <div className="col"></div>
-          <div className="col"></div>
-        </div>
-        <br />
-        <div className="row">
-          <div className="col"></div>
-          <div className="col"></div>
-          <div className="col"></div>
-        </div>
-      </section>
+      <IndexPage />
     </main>
   );
 };
