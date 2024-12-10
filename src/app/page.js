@@ -50,7 +50,7 @@ const Home = () => {
     </section>
 
       <br />
-      <div id="divider" />
+      <div id="dividerSection" />
       <br />
 
     </main>
