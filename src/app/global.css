@@ -5,7 +5,7 @@
 /* F2A903 Harvest Gold */
 /* 3A3A3A Jet */
 @import url(https://fonts.googleapis.com/css?family=Raleway); /*Titles - Raleway*/
-@import url(https://fonts.google.com/specimen/Ovo); /*Headings - Ovo*/
+@import url(https://fonts.googleapis.com/css?family=Ovo); /*Headings - Ovo*/
 @import url(https://fonts.google.com/specimen/Hind+Vadodara); /*Body - Hind Vadodara*/
 
 
@@ -29,20 +29,32 @@
   border-color: red;
 }
 
-#links > .row {
-  padding: 10px;
-  height: 100px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
-  display: flex;
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* styles here */
+  #links > .row {
+    padding: 10px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    display: flex;
+  }
+   
+  #links > .row > .col {
+      display: inline-flex;
+      /* padding-left: 6.5px;
+      padding-right: 6.5px; */
+      height: 100px;
+      width: 100px;
+  }
+  
+  #links > .row> .spaceCol {
+    width: 25px;
+    height: 100px;
+    background-color: chartreuse;
+  }
 }
 
-/* #links > .row > .col {
-  border-style: solid;
-  border-width: 2px;
-  border-color: blue;
-} */
 
 img {
   width: 100px;
@@ -53,8 +65,33 @@ img {
   display: inline-flex;
 }
 
-#links > .row> .spaceCol {
-  width: 25px;
-  height: 100px;
-  background-color: chartreuse;
+#links > .row > .col > h3 {
+  text-align: center;
+  font-family: 'Ovo' sans-serif;
+  font-size: 18px;
+  text-wrap: pretty;
+}
+@media screen and (min-width: 720px) { 
+  #links > .row {
+    padding: 10px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    display: flex;
+  }
+   
+  #links > .row > .col {
+      display: inline-flex;
+      /* padding-left: 6.5px;
+      padding-right: 6.5px; */
+      height: 100px;
+      width: 100px;
+  }
+  
+  #links > .row> .spaceCol {
+    width: 25px;
+    height: 100px;
+    background-color: chartreuse;
+  }
 }
