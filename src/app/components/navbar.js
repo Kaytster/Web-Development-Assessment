@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link';
-import "./Navbar.css";
+import "./navbar.css";
 import React, { useState } from "react";
 
 const Navbar = () => {

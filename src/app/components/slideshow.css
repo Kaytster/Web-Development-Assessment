@@ -1,0 +1,10 @@
+.slides > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel > .thumbs-wrapper {
+    border-style: solid;
+    visibility: hidden;
+}

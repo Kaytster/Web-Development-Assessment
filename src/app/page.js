@@ -1,5 +1,6 @@
 import Image from "next/image.js";
 import "./layout.js";
+import Slideshow from "./components/slideshow.js";
 
 
 export const metadata = {
@@ -12,7 +13,8 @@ const Home = () => {
   return (
     <main>
       <section id="slideshow">
-        <p>My Slideshow</p>
+        {/* <p>My Slideshow</p> */}
+        <Slideshow />
       </section>
 
       <section id="links">
