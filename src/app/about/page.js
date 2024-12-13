@@ -12,11 +12,8 @@ export default function About() {
       <main>
 
       <section id="aboutIntro">
-        <br />
-        <br />
-        <br />
-        <h2>Cantor College was established in 1989 to specialize in Computing and Design.</h2>
-        {/* <Image src="/Images/AboutTitle.png" alt="About Us" width={100} height={100} /> */}
+        {/* <h2>Cantor College was established in 1989 to specialize in Computing and Design.</h2> */}
+        <Image src="/Images/AboutTitle.png" alt="About Us" width={968} height={400} />
       </section>
       <h2>About Our College</h2>
       <div id="dividerHeading" />

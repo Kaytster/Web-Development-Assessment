@@ -1,22 +1,110 @@
-#links > .row {
-  padding: 10px;
-  height: 300px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
-  display: flex;
-}
- 
-#links > .row > .col {
-    display: inline-flex;
-    /* padding-left: 6.5px;
-    padding-right: 6.5px; */
+/* DESKTOP ONLY */
+@media screen and (min-width: 720px) { 
+
+  #slideshow {
+    height: 300px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Home */
+  #links > .row {
+    padding: 10px;
+    height: 300px;
+    width:fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    display: flex;
+  }
+   
+  #links > .row > .col {
+      height: 300px;
+      width: 300px;
+  }
+
+  #links > .row > .col > h3 {
+    font-size: 32px;
+  }
+  
+  #links > .row > .spaceCol {
+    width: 25px;
     height: 100px;
-    width: 100px;
+    background-color: #FFF3E8;
+  }
+
+  /* About */
+  #aboutIntro {
+    font-size: 30px;
+    width:auto;
+  }
+
+  #aboutIntro > img {
+    width: 968px;
+    height: 400px;
+  }
+  
+  .aboutImages > .row1, .row2 {
+    padding: 10px;
+    height: 300px;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutImages > .row1 > .col {
+      display: inline-flex;
+      height: 300px;
+      width: auto;
+  }
+
+  .aboutImages > .row1 > .spaceCol {
+    width: 150px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+  
+  .aboutImages > .row2 {
+    height: 100px;
+  }
+
+  .aboutImages > .row2 > .colT {
+    display: inline-flex;
+    height: auto;
+    width: 300px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
 }
 
-#links > .row> .spaceCol {
-  width: 25px;
-  height: 100px;
-  background-color: chartreuse;
+  .aboutImages > .row2 > .colT > p {
+    text-align: center;
+  }
+
+  .aboutImages > .row2 > .spaceCol {
+    width: 150px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+
+
+#Location > .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Location > .address> img {
+  width: 500px;
+  height: 299px;
+  padding-right: 30px;
+}
+#Location > .address > .addressDetails {
+  padding-left: 30px;
+}
 }
