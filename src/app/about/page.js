@@ -36,21 +36,21 @@ export default function About() {
       <div id="dividerHeading" />
       <br />
       <section className="aboutImages">
-      <div className="row">
+      <div className="row1">
         <div className="col">
-          <Image src="/Images/Cantor Lecture Theatre 3.png" alt="About Us" width={100} height={100} /> 
+          <Image src="/Images/Lecture3.jpg" alt="About Us" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-          <Image src="/Images/ACES-032-Computing-Playstation-Lab.jpg" alt="About Us" width={100} height={100} /> 
+          <Image src="/Images/PlaystationLab.jpg" alt="About Us" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-        <Image src="/Images/IMG_1089.jpeg" alt="About Us" width={100} height={100} /> 
+        <Image src="/Images/Collaborative.jpeg" alt="About Us" width={300} height={300} /> 
         </div>
       </div>
 
-      <div className="row">
+      <div className="row2">
         <div className="colT">
           <p>Lecture Theatres</p>
         </div>
@@ -71,11 +71,14 @@ export default function About() {
       <section id="Location">
         <h2>How To Find Us</h2>
         <div id="dividerHeading" />
-        <Image src="/Images/872SHUSpaceCitymap.jpg" alt="About Us" width={100} height={100} /> 
-
-        <div id="locRow">
-          <div id="locCol">
-          <Image src="/Images/IMG_1005.jpeg" alt="About Us" width={100} height={100} /> 
+        <div className="address">
+          <Image src="/Images/CityMap.jpg" alt="About Us" width={500} height={299} /> 
+          <div className="addressDetails">
+            <h2>Our Address</h2>
+            <p>Cantor College</p>
+            <p>Main Street</p>
+            <p>Sheffield</p>
+            <p>SC4 2BB</p>
           </div>
         </div>
       </section>
