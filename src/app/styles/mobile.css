@@ -100,4 +100,16 @@
   width: 369.600px;
   height: 199px;
 }
+
+/* Courses */
+#computingText > img {
+  width: 374px;
+  height: 200px;
+  padding-top: 25px;
+}
+#designText > img {
+  width: 374px;
+  height: 200px;
+  padding-top: 25px;
+}
 }

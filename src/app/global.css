@@ -44,6 +44,15 @@ body {
   padding: 10 10 10 10;
 }
 
+#smallDivider {
+  height: 5px;
+  background-color: #9b9b9b;
+  padding: 10 10 10 10;
+  width: 200px;
+  justify-self: center;
+  align-self: center;
+}
+
 h2 {
   font-family: 'Ovo', sans-serif;
 }
@@ -113,4 +122,13 @@ img {
   border-color: #574416;
   border-width: 0.5px;
   text-align: center;
+}
+
+/* Courses */
+#coursesIntro {
+  width: auto;
+  height: 70px;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
