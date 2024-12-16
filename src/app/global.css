@@ -144,3 +144,49 @@ img {
 .ComputingList {
   list-style:none;
 }
+
+/* Contact */
+.container input {
+  font-size: 1.2rem;
+  margin: 10px 0 10px 0px;
+  border-color: rgb(31, 28, 28);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e8f0fe;
+}
+
+.container textarea {
+  margin: 10px 0 10px 0px;
+  padding: 5px;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  background-color: #e8f0fe;
+  font-size: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.name div {
+  display: flex;
+  flex-direction: column;
+}
+
+.block button {
+  padding: 10px;
+  font-size: 20px;
+  width: 30%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+}
