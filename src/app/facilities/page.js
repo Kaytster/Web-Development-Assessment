@@ -7,7 +7,8 @@ export const metadata = {
 export default function Facilities() {
     return (
       <div>
-        <h2>Staff</h2>
+        <h2>College Facilities</h2>
+        
       </div>
     );
   }

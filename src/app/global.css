@@ -132,3 +132,7 @@ img {
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
+
+.ComputingList {
+  list-style:none;
+}
