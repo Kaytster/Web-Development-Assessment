@@ -8,9 +8,9 @@ const connection = await mysql.createConnection({
     database: process.env.DB_SCHEMA,
   });
 
-const fetchComputing = async () => {
+const fetchDesign = async () => {
     try {
-      const query = "select * from computinglist"; 
+      const query = "select * from designlist"; 
       const [rows] = await connection.execute(query); 
       return rows;
     } catch (error) {
@@ -19,10 +19,10 @@ const fetchComputing = async () => {
     }
   };
 
-  const fetchComputingDeets = async (id) => {
+  const fetchDesignDeets = async (id) => {
     try {
 
-        const query = "SELECT * FROM computinglist WHERE id = ?"; 
+        const query = "SELECT * FROM designlist WHERE id = id"; 
         const [rows] = await connection.execute(query, [id]); 
         return rows[0] || null;
     } catch (error) {
@@ -31,4 +31,4 @@ const fetchComputing = async () => {
     }
   };
 
-  export {fetchComputing, fetchComputingDeets};
+  export {fetchDesign, fetchDesignDeets};

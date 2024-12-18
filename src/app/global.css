@@ -166,6 +166,11 @@ display: flex;
   font-family: 'Ovo', sans-serif;
 }
 
+.DesignList {
+  list-style:none;
+  font-family: 'Ovo', sans-serif;
+}
+
 /* Contact */
 .container input {
   font-size: 1.2rem;
