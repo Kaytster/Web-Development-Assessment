@@ -37,15 +37,15 @@ export default function About() {
       <section className="aboutImages">
       <div className="row1">
         <div className="col">
-          <Image src="/Images/Lecture3.jpg" alt="About Us" width={300} height={300} /> 
+          <Image src="/Images/Lecture3.jpg" alt="Lecture Hall" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-          <Image src="/Images/PlaystationLab.jpg" alt="About Us" width={300} height={300} /> 
+          <Image src="/Images/PlaystationLab.jpg" alt="Playstation Lab" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-        <Image src="/Images/Collaborative.jpeg" alt="About Us" width={300} height={300} /> 
+        <Image src="/Images/Collaborative.jpeg" alt="Collaborative work" width={300} height={300} /> 
         </div>
       </div>
 

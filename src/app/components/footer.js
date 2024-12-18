@@ -5,10 +5,10 @@ const Footer = () => {
         <div className="container">
         <h2>Visit our Socials for more updates!</h2>
         <div className="social">
-        <Image src="/Images/instaLogo.png" width={10} height={10}/> <p>Instagram: @cantorcollege</p>
+        <Image src="/Images/instaLogo.png" width={10} height={10} alt="Instagram Logo"/> <p>Instagram: @cantorcollege</p>
         </div>
         <div className="social">
-        <Image src="/Images/facebookLogo.png" width={10} height={10}/> <p>Facebook: @cantorcollegeofficial</p>
+        <Image src="/Images/facebookLogo.png" width={10} height={10} alt="Facebook Logo"/> <p>Facebook: @cantorcollegeofficial</p>
         </div>
         </div>
       </footer>

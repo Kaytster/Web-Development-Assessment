@@ -12,7 +12,7 @@ export default function Business() {
         <h1>Partner with Cantor College: Unlock Expertise, Innovation, and Growth</h1>
         <p>At Cantor College, we believe in the power of collaboration between education and industry. Our College offers a range of specialized services designed to support businesses in achieving their goals through cutting-edge expertise, innovation, and tailored solutions. With a focus on Computing, Design, and Technology, we are uniquely positioned to help your business thrive in an increasingly digital world.</p>
 
-        <h3>Our Services</h3>
+        <h2>Our Services</h2>
 
         <p><b>Custom Training and Development Programs</b> Empower your workforce with skills that matter. Our faculty can develop custom training programs that address your business's specific needs, whether in advanced computing technologies, creative design, or the latest in tech innovation. We offer flexible learning options, including on-site workshops, online modules, and blended learning experiences.</p>
 

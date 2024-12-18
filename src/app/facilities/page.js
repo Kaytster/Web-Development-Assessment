@@ -34,15 +34,15 @@ export default function Facilities() {
         <section className="facilitiesImages">
       <div className="row1">
         <div className="col">
-          <Image src="/Images/Atriumnew.jpg" alt="About Us" width={300} height={300} /> 
+          <Image src="/Images/Atriumnew.jpg" alt="Atrium" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-          <Image src="/Images/PlaystationLab2new.jpg" alt="About Us" width={300} height={300} /> 
+          <Image src="/Images/PlaystationLab2new.jpg" alt="Playstation Lab" width={300} height={300} /> 
         </div>
         <div className="spaceCol" />
         <div className="col">
-        <Image src="/Images/MeetingRoomnew.jpeg" alt="About Us" width={300} height={300} /> 
+        <Image src="/Images/MeetingRoomnew.jpeg" alt="Meeting Room" width={300} height={300} /> 
         </div>
       </div>
 
