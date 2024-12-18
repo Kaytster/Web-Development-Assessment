@@ -41,7 +41,7 @@ menu {
 
 menu.active {
     transition: max-height 0.5s ease;
-    max-height: 300px;
+    max-height: 350px;
     z-index: 1;
 }
 
