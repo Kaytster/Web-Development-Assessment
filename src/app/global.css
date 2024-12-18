@@ -171,6 +171,11 @@ display: flex;
   font-family: 'Ovo', sans-serif;
 }
 
+/* Resources */
+.resources {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
 /* Contact */
 .container input {
   font-size: 1.2rem;

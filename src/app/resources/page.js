@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Resources() {
     return (
-      <div>
+      <div className="resources">
         <h1>Rules Governing the Use of the Library and Resource Centre</h1>
         <h2>Introduction</h2>
         <p>All students and staff of the College are entitled to register as members of the Library and Resource Centre and to use the facilities 
