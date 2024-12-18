@@ -22,7 +22,7 @@ const fetchComputing = async () => {
   const fetchComputingDeets = async (id) => {
     try {
 
-        const query = "SELECT * FROM computinglist WHERE ID = ?"; 
+        const query = "SELECT * FROM computinglist WHERE id = id"; 
         const [rows] = await connection.execute(query, [id]); 
         return rows[0] || null;
     } catch (error) {

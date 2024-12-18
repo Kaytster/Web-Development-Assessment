@@ -35,7 +35,7 @@ export default function Courses() {
             They are designed to prepare students for professional occupations in Computing and related fields. 
             Many graduates continue their studies to pursue a higher degree such as an MSc. or PhD.
           </p>
-          <Link href="/courses/computing">Click here to view our list of Computing Courses</Link> 
+          <Link id="computingLink" href="/courses/computing">Click here to view our list of Computing Courses</Link> 
         </section>
           <div id="dividerSection" />
 
@@ -60,7 +60,7 @@ export default function Courses() {
             They are designed to prepare students for professional occupations in Computing and related fields. 
             Many graduates continue their studies to pursue a higher degree such as an MSc. or PhD.
           </p>
-          <Link href="/courses/design">Click here to view our list of Design Courses</Link> 
+          <Link id="designLink" href="/courses/design">Click here to view our list of Design Courses</Link> 
         </section>
       </main>
     );
