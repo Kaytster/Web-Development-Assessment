@@ -148,5 +148,23 @@
   width: 100%;
 }
 
+/* contact */
+
+#contact > .row > .col {
+  display: inline-flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#contact > .row > .col1 {
+  display: inline-flex;
+  flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
 
 }

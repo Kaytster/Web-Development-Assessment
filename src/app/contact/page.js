@@ -10,7 +10,7 @@ export default function Contact() {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('/api/contact.js', {
         method: 'post',
         body: new URLSearchParams(data),
       });
@@ -25,10 +25,14 @@ export default function Contact() {
   }
 
     return (
+      <section id="contact">
+      <div className="row">
+      <div className="col">
       <form className="container">
       <h1>Get in touch</h1>
-      <div className="email block">
+      <div className="emailblock">
         <label htmlFor="frm-email">Email</label>
+        <br />
         <input
           id="frm-email"
           type="email"
@@ -37,8 +41,9 @@ export default function Contact() {
           required
         />
       </div>
-      <div className="block phone">
+      <div className="phoneblock">
         <label htmlFor="frm-phone">Phone</label>
+        <br />
         <input
           id="frm-phone"
           type="text"
@@ -47,9 +52,10 @@ export default function Contact() {
           required
         />
       </div>
-      <div className="name block">
+      <div className="nameblock">
         <div>
           <label htmlFor="frm-first">First Name</label>
+          <br />
           <input
             id="frm-first"
             type="text"
@@ -60,6 +66,7 @@ export default function Contact() {
         </div>
         <div>
           <label htmlFor="frm-last">Last Name</label>
+          <br />
           <input
             id="frm-last"
             type="text"
@@ -69,13 +76,24 @@ export default function Contact() {
           />
         </div>
       </div>
-      <div className="message block">
+      <div className="messageblock">
         <label htmlFor="frm-message">Message</label>
+        <br />
         <textarea id="frm-message" rows="6" name="message"></textarea>
       </div>
-      <div className="button block">
+      <div className="buttonblock">
         <button type="submit">Submit</button>
       </div>
     </form>
+    </div>
+    <div className="col1">
+    <h1>Tel:(01321) 2340 235</h1>
+    <br />
+    <h1> Fax: (01321) 2340 236</h1>
+    <br />
+    <h1>Email: info@cantorcollege.ac.uk</h1>
+    </div>
+    </div>
+    </section>
     );
   }
