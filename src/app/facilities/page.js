@@ -1,4 +1,4 @@
-import { FacilitiesSlides } from "../components/slideshow";
+import Image from "next/image";
 
 export const metadata = {
     title: "Our Facilities",
@@ -16,7 +16,7 @@ export default function Facilities() {
         <p>Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.</p>
 
         <h3>Facilities include:</h3>
-        <ul>
+        <ul className="facilities">
             <li>wi-fi technology</li>
             <li>pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
             <li>specialist faculty facilities</li>
@@ -30,7 +30,37 @@ export default function Facilities() {
             <li>parking for disabled badge holders</li>
             <li>cycle racks</li>
         </ul>
-        <FacilitiesSlides />
+
+        <section className="facilitiesImages">
+      <div className="row1">
+        <div className="col">
+          <Image src="/Images/Atriumnew.jpg" alt="About Us" width={300} height={300} /> 
+        </div>
+        <div className="spaceCol" />
+        <div className="col">
+          <Image src="/Images/PlaystationLab2new.jpg" alt="About Us" width={300} height={300} /> 
+        </div>
+        <div className="spaceCol" />
+        <div className="col">
+        <Image src="/Images/MeetingRoomnew.jpeg" alt="About Us" width={300} height={300} /> 
+        </div>
+      </div>
+
+      <div className="row2">
+        <div className="colT">
+          <p>Atrium</p>
+        </div>
+        <div className="spaceCol" />
+        <div className="colT">
+          <p>Labs</p>
+        </div>
+        <div className="spaceCol" />
+        <div className="colT">
+        <p>Meeting Rooms</p>
+        </div>
+      </div>
+      </section>
+
       </div>
     );
   }

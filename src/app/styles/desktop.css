@@ -101,6 +101,56 @@
   padding-left: 30px;
 }
 
+/* facilities */
+.facilitiesImages > .row1, .row2 {
+  padding: 10px;
+  height: 300px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row1 > .col {
+    display: inline-flex;
+    height: 300px;
+    width: auto;
+}
+
+.facilitiesImages > .row1 > .spaceCol {
+  width: 150px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
+.facilitiesImages > .row2 {
+  height: 100px;
+}
+
+.facilitiesImages > .row2 > .colT {
+  display: inline-flex;
+  height: auto;
+  width: 300px;
+  border-style: solid;
+  border-color: #F2A903;
+  background-color: #574416;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row2 > .colT > p {
+  text-align: center;
+  color: #F2A903;
+}
+
+.facilitiesImages > .row2 > .spaceCol {
+  width: 35px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
 /* Courses */
 #computingText > img {
   width: 100%;

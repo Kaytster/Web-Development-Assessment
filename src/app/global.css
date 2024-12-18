@@ -123,6 +123,19 @@ display: flex;
   text-align: center;
 }
 
+/* facilities */
+
+.facilities {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+.facilitiesImages > .row > .col > p {
+  border-style: solid;
+  border-color: #574416;
+  border-width: 0.5px;
+  text-align: center;
+}
+
 /* Courses */
 #coursesIntro {
   width: auto;
@@ -180,4 +193,9 @@ display: flex;
 
 textarea {
   resize: none;
+}
+
+/* business */
+.bImage {
+  width:800px;
 }
