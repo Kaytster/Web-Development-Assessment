@@ -181,6 +181,15 @@ display: flex;
   font-family: 'Hind Vadodara', sans-serif;
 }
 
+/* Business */
+.Business > img {
+  width: 100%;
+}
+
+.Business > ul {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
 /* Contact */
 .container input {
   font-size: 1.2rem;

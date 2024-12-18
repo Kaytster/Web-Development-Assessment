@@ -162,4 +162,9 @@
   height: 300px;
   padding-top: 25px;
 }
+
+/* Business */
+.Business > img {
+  width: 100%;
+}
 }
