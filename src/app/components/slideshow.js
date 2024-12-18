@@ -30,31 +30,5 @@ export const Slideshow = () => {
     );
 };
 
-export const FacilitiesSlides = () => {
-    return (
-        <div>
-            <Carousel className="slidesF">
-            <div>
-                <img src="/Images/Atriumnew.jpg" alt="Atrium" width='100' height='100'/>
-                {/* <p className="legend">Image 1</p> */}
-            </div>
 
-            <div>
-                <img src="/Images/BuildingFrontnew.jpeg" alt="Front of Building" width={100} height={100}/>
-                {/* <p className="legend">Image 2</p> */}
-            </div>
-
-            <div>
-                <img src="/Images/MeetingRoomnew.jpeg" alt="Meeting Room" width={100} height={100}/>
-                {/* <p className="legend">Image 3</p> */}
-            </div>
-            <div>
-                <img src="/Images/PlaystationLab2new.jpg" alt="Lab" width={100} height={100}/>
-                {/* <p className="legend">Image 3</p> */}
-            </div>
-        </Carousel>
-    </div>
-    );
-};
-
-// export default Slideshow, facilitiesSlides;
+export default Slideshow

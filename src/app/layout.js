@@ -1,4 +1,5 @@
 import Header from "@/app/components/header";
+import Footer from "./components/footer";
 import Link from "next/link";
 import "@/app/global.css";
 import "@/app/styles/mobile.css";
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
           {children}
           
         <footer>
-            <p>&copy; {new Date().getFullYear()} My Film Listing</p>
+            <Footer />
         </footer>
 
       </body>

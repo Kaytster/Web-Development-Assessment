@@ -20,30 +20,11 @@
   }
 
   /* Home */
-  #links > .row {
-    padding: 10px;
-    height: 300px;
-    width:fit-content;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    display: flex;
+  #intro > h1 {
+    text-align: center;
+    font-size: 100px;
   }
-   
-  #links > .row > .col {
-      height: 300px;
-      width: 300px;
-  }
-
-  #links > .row > .col > h3 {
-    font-size: 32px;
-  }
-  
-  #links > .row > .spaceCol {
-    width: 25px;
-    height: 100px;
-    background-color: #FFF3E8;
-  }
+  font 
 
   /* About */
   #aboutIntro {
