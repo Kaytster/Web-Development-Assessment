@@ -34,7 +34,7 @@
 
   #aboutIntro > img {
     width: 968px;
-    height: 400px;
+    height: 450px;
   }
   
   .aboutImages > .row1, .row2 {
@@ -69,16 +69,19 @@
     height: auto;
     width: 300px;
     border-style: solid;
+    border-color: #F2A903;
+    background-color: #574416;
     justify-content: center;
     align-items: center;
 }
 
   .aboutImages > .row2 > .colT > p {
     text-align: center;
+    color: #F2A903;
   }
 
   .aboutImages > .row2 > .spaceCol {
-    width: 150px;
+    width: 35px;
     height: 100px;
     background-color: #FFF3E8;
   }

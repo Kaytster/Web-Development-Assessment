@@ -55,6 +55,8 @@
     height: auto;
     width: 100px;
     border-style: solid;
+    border-color: #F2A903;
+    background-color: #574416;
     justify-content: center;
     align-items: center;
 }
@@ -62,6 +64,7 @@
   .aboutImages > .row2 > .colT > p {
     text-align: center;
     font-size: 15px;
+    color: #F2A903;
   }
 
   .aboutImages > .row2 > .spaceCol {
